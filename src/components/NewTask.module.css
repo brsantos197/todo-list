@@ -11,7 +11,7 @@
 
 .form input {
   height: 100%;
-  width: 32.5rem;
+  width: 39.875rem;
   padding: 1rem;
 
   background: var(--gray-500);
@@ -20,6 +20,8 @@
   border-radius: 8px;
   border: 1px solid var(--gray-700);
   outline: none;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .form input::placeholder {
@@ -42,11 +44,13 @@
   background: var(--blue-dark);
   color: var(--gray-100);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 0.875rem;
 
   border-radius: 8px;
   border: 0;
+
+  cursor: pointer;
 
   transition: background-color 0.5s;
 }
