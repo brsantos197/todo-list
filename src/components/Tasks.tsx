@@ -23,6 +23,11 @@ export const Tasks = () => {
       <div className={styles.content}>
         <div className={styles.task}>
           <input type="checkbox" />
+          <p className={styles.taskText}>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
+          <Trash size={24} className={styles.icon} />
+        </div>
+        <div className={styles.task}>
+          <input type="checkbox" checked />
           <p className={styles.taskTextComplete}>Integer urna interdum massa libero auctor neque turpis turpis semper. Duis vel sed fames integer.</p>
           <Trash size={24} className={styles.icon} />
         </div>
